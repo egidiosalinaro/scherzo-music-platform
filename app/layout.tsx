@@ -14,7 +14,7 @@ import getActiveProductsWithPrices from '@/actions/getActiveProductsWithPrices';
 const font = Figtree({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Spotify Clone',
+  title: 'Scherzo | Music, for real',
   description: 'Listen to music!',
 };
 
