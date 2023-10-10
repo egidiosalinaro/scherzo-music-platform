@@ -9,6 +9,7 @@ import { useSupabaseClient } from '@supabase/auth-helpers-react';
 import { FaUserAlt } from 'react-icons/fa';
 import { toast } from 'react-hot-toast';
 
+import usePlayer from '@/hooks/usePlayer';
 import useAuthModal from '@/hooks/useAuthModal';
 import { useUser } from '@/hooks/useUser';
 
@@ -20,6 +21,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ children, className }) => {
+  const player = usePlayer();
   const AuthModal = useAuthModal();
   const router = useRouter();
 
@@ -28,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
 
   const handleLogout = async () => {
     const { error } = await supabaseClient.auth.signOut();
-    // reset any playing song
+    player.reset();
     router.refresh();
 
     if (error) {
