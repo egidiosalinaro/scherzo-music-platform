@@ -77,3 +77,104 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <div style="display:flex;  align-items:center;"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" width="40" height="40" style="border-radius:100%; margin-right:9px;"/> </a>Tailwind CSS</div> <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## :clapper: Getting Started
+
+I deployed my Next.js app using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js. <br>
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+You can also start this app on your local machine, following these steps:
+
+### :pencil: Prerequisites
+
+- clone this repository
+
+  ```sh
+  git clone https://github.com/egidiosalinaro/scherzo-music-platform
+  ```
+
+- install all libraries and dependencies needed for this app
+
+  ```sh
+  npm install
+  ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### :gear: Installation
+
+Once downloaded this repo, you are ready to go. <br> Now you can:
+
+- configure your Supabase database as I did
+
+  to match the routes called in this repo, your Supabase database should have two buckets called `songs` and `images`, and seven tables called `customers`, `liked_songs`, `prices`, `products`, `songs`, `subscriptions`, `users`
+
+- connect your Supabase and Stripe account
+
+  create a `.env.local` file (you won't find mine because it is in the `.gitignore` list) containing all the environment variables required for Supabase and Stripe to work, and fill them with your own keys
+
+  ```sh
+  NEXT_PUBLIC_SUPABASE_URL=
+  NEXT_PUBLIC_SUPABASE_ANON_KEY=
+  SUPABASE_SERVICE_ROLE_KEY=
+
+  NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+  STRIPE_SECRET_KEY=
+  STRIPE_WEBHOOK_SECRET=
+  ```
+
+- start the app locally
+
+  ```sh
+  npm run dev
+  ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see Scherzo in action.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## :world_map: Roadmap
+
+- [x] `.env.local` file containing keys
+- [x] setting up Supabase
+- [x] app and pages configuration
+- [x] creating components with Tailwind classes
+- [x] creating hooks and actions
+- [x] creating providers
+- [x] setting up Stripe
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## :computer: Contributing
+
+I welcome contributions from the open-source community. If you'd like to help improve ToolBox, please follow our contribution guidelines:
+
+- Report any bugs or issues you encounter by creating a GitHub issue.
+
+- Suggest new features and improvements by submitting a feature request.
+
+- Contribute code by forking the repository and opening a pull request.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+egidiosalinaro@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
