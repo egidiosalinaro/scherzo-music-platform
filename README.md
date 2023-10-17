@@ -46,7 +46,7 @@ Scherzo is the new open-source streaming service that lets you upload your music
 
 ### :joystick: Usage
 
-You can sign up / sign in using email and other methods (more coming soon). Some features are for premium users only.
+You can sign up / sign in using email and other methods (more coming soon). Some features are for premium users only (_during this test period, you can use a fake 4242424242424242 card to subscribe_).
 
 - _<ins>Your Library</ins>_: a list of songs uploaded by you. Add more using the **+** button
 
