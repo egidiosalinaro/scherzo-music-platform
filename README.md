@@ -3,7 +3,7 @@
   <h1 align="center">Scherzo :musical_note: Music, for real</h1>
 
   <p align="center">
-  An open-source full stack application for music streaming and sharing. <br> [Try it Here!](https://scherzo-music-platform.vercel.app/)
+  An open-source full stack application for music streaming and sharing. <br> <a href="https://scherzo-music-platform.vercel.app/">Try it Here!</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
